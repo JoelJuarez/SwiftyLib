@@ -9,6 +9,7 @@
 import XCTest
 @testable import SwiftyLib
 
+/// I neeed validate my teest
 class SwiftyLibTests: XCTestCase {
 
   var swiftyLib: SwiftyLib!
@@ -21,9 +22,8 @@ class SwiftyLibTests: XCTestCase {
     XCTAssertEqual(swiftyLib.add(a: 1, b: 1), 2)
   }
 
-
+  /// Some commnts
   func testSub() {
     XCTAssertEqual(swiftyLib.sub(a: 2, b: 1), 1)
   }
-
 }
